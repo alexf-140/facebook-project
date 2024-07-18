@@ -1,0 +1,112 @@
+h1{
+  font-family: sans-serif;
+  color: blue;
+  font-size: 6em;
+  text-align: left;
+}
+p{
+  font-size: 2em;
+}
+input{  
+  display: block;
+  border-radius: 12px;
+  margin:auto;
+}
+#maindiv{
+  align-content: center;
+  text-align: center;
+  height: 75em;
+  width: 100%;
+  background-color: rgb(219, 224, 219);
+}
+#div1parent , #div2parent{
+  width:45%;
+  text-align: center;
+  padding:20px;
+  float:left;
+}
+#div1{
+  width:50%;
+  text-align: center ;
+  height: 500px;
+  margin:0 10% 0 40%;
+  padding:10px;
+  
+}
+
+#div2{
+  width:70%;
+  text-align: center ;
+  padding:2px;
+  margin:0 10% 0 10%;
+}
+#inputdiv{
+  background-color: white;
+  height: 33em;
+  padding:2em 0em ;
+  border-radius: 15px;
+}
+.childdiv{
+  padding:7px;
+}
+#login{
+  background-color: #0866ff;
+  height: 85px;
+  color:white;
+  font-family: inherit;
+  font-size: 40px;
+  width: 85%;
+  border:hidden;
+}
+#c_n_a{
+  height: 80px;
+  width:50%;
+  background-color: #42b72a;
+  border:hidden;
+  font-size: 35px;
+  padding:0 1px;
+  color:white;
+  font-family: inherit;
+}
+#email , #password{
+  border-style: groove;
+  font-size: 30px;
+  height:80px;
+  padding:1px 0 1px 15px;
+  width:82%;
+  
+}
+#bottomdiv{
+  align-content: center;
+  width: 100%;
+}
+#lang{
+  text-align: left;
+  width: 70%;
+  
+  font-size: 25px;
+  margin: auto;
+  padding: 15px 0;
+  
+}
+#linediv{
+  border:1px solid gray;
+  width:70%;
+  margin: auto;
+  }
+#othersdiv{
+  width:70%;
+  margin:auto;
+}
+.others{
+  text-align: left;
+  color: gray;
+  font-size: 25px;
+  padding:5px;
+}
+
+.others a ,.lang a {
+  padding: 5px;
+  color:gray;
+  text-decoration: none;
+}
